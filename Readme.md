@@ -28,99 +28,86 @@ This Inventory Management System is built using Django and Django REST Framework
    ```
    git clone https://github.com/yourusername/inventory_management.git
    cd inventory_management
-Create a virtual environment:
+
+
+2. **Create a virtual environment:**
+
+    python -m venv venv
+
+
+3. **Activate the virtual environment:**
+
+    On Windows:
+
+
+    venv\Scripts\activate
+    On macOS/Linux:
+
+
+    source venv/bin/activate
+    Install dependencies: Create a requirements.txt file with the following contents:
 
 
 
-python -m venv venv
-Activate the virtual environment:
-
-On Windows:
-
-
-venv\Scripts\activate
-On macOS/Linux:
+    Django>=3.0,<4.0
+    djangorestframework>=3.12,<4.0
+    djangorestframework-authtoken>=1.0
+    redis>=4.0
 
 
-source venv/bin/activate
-Install dependencies: Create a requirements.txt file with the following contents:
+4. **Then run:**
 
 
 
-Django>=3.0,<4.0
-djangorestframework>=3.12,<4.0
-djangorestframework-authtoken>=1.0
-redis>=4.0
-Then run:
+    pip install -r requirements.txt
+    Run database migrations:
 
 
 
-pip install -r requirements.txt
-Run database migrations:
+    python manage.py migrate
+    Create a superuser (optional):
 
 
 
-python manage.py migrate
-Create a superuser (optional):
+    python manage.py createsuperuser
+    Run the development server:
 
 
 
-python manage.py createsuperuser
-Run the development server:
+    python manage.py runserver
+    Access the API: Navigate to http://127.0.0.1:8000/inventory/ in your web browser or use tools like Postman to interact with the API.
+
+**API Endpoints**
+
+    Method	Endpoint	        Description
+    POST	/inventory/register/	    Register a new user
+    POST	/inventory/login/	        Log in a user and receive a token
+    GET	    /inventory/items/	        Retrieve all inventory items
+    POST	/inventory/items/	        Create a new inventory item
+    GET	    /inventory/items/{id}/	Retrieve a specific inventory item
+    PUT	    /inventory/items/{id}/	Update a specific inventory item
+    DELETE	/inventory/items/{id}/	Delete a specific inventory item
 
 
 
-python manage.py runserver
-Access the API: Navigate to http://127.0.0.1:8000/api/ in your web browser or use tools like Postman to interact with the API.
+**Authentication**
 
-API Endpoints
-Method	Endpoint	Description
-POST	/api/register/	Register a new user
-POST	/api/login/	Log in a user and receive a token
-GET	/api/items/	Retrieve all inventory items
-POST	/api/items/	Create a new inventory item
-GET	/api/items/{id}/	Retrieve a specific inventory item
-PUT	/api/items/{id}/	Update a specific inventory item
-DELETE	/api/items/{id}/	Delete a specific inventory item
-Authentication
-To authenticate, use the /api/login/ endpoint to obtain an access token. Include the token in the Authorization header as follows:
+    To authenticate, use the /inventory/login/ endpoint to obtain an access token. Include the token in the Authorization header as follows:
+
+    Authorization: Bearer <your_access_token>
 
 
+**Running Tests**
 
-Authorization: Bearer <your_access_token>
-Running Tests
-To run the test suite, use the following command:
+
+    To run the test suite, use the following command:
+
+    python manage.py test inventory.tests
 
 
 
-python manage.py test inventory.tests
-Contributing
-Contributions are welcome! Please follow these steps:
 
-Fork the repository.
-Create a new branch:
-
-
-git checkout -b feature/YourFeature
-Commit your changes:
-
-
-git commit -m 'Add some feature'
-Push to the branch:
-
-
-git push origin feature/YourFeature
-Open a pull request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgements
-Django REST Framework for making API development easier.
-Any other libraries or frameworks used.
-Customization
-Replace https://github.com/yourusername/inventory_management.git with the actual URL of your repository.
-Update any specific instructions or features unique to your implementation.
-Feel free to modify this README as needed to better fit your project's specifics!
+    
 
 
 
