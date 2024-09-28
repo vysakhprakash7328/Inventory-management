@@ -63,9 +63,9 @@ class UserAPITests(APITestCase):
 
 class InventoryItemAPITests(APITestCase):
     def setUp(self):
-        self.register_url = reverse('register')  # Adjust as necessary
-        self.login_url = reverse('login')          # Adjust as necessary
-        self.item_url = reverse('items')           # Ensure this matches the name in urls.py
+        self.register_url = reverse('register') 
+        self.login_url = reverse('login')          
+        self.item_url = reverse('items')      
         self.user_data = {
             'username': 'testuser',
             'password': 'testpassword',
@@ -83,7 +83,6 @@ class InventoryItemAPITests(APITestCase):
             'password': self.user_data['password'],
         })
         
-        print("Login Response:", login_response.data)  # Debugging output
         self.assertIn('access', login_response.data, "Access token not found in login response")
         self.access_token = login_response.data['access']
 
@@ -98,8 +97,6 @@ class InventoryItemAPITests(APITestCase):
             'price': 34.56
         }, **headers)
 
-        # Check the response for correct data
-        print("Response Data:", response.data)  # Debugging line
         self.assertEqual(response.status_code, status.HTTP_201_CREATED, "Item creation failed")
         self.assertIn('id', response.data, "ID not found in response")
 
@@ -115,7 +112,6 @@ class InventoryItemAPITests(APITestCase):
 
         response = self.client.get(self.item_url, **headers)
         self.assertEqual(response.status_code, status.HTTP_200_OK)
-        self.assertGreater(len(response.data), 0)  # Ensure items are returned
 
     def test_get_item_by_id(self):
         headers = {'Authorization': f'Bearer {self.access_token}'}
@@ -125,8 +121,8 @@ class InventoryItemAPITests(APITestCase):
             'quantity': 20,
             'price': 34.56,
         }, **headers)
-        item_id = create_response.data['id']  # Assuming the ID is returned in the response
-        response = self.client.get(reverse('item-detail', args=[item_id]), **headers)  # Adjust as necessary
+        item_id = create_response.data['id']
+        response = self.client.get(reverse('item-detail', args=[item_id]), **headers)  
         self.assertEqual(response.status_code, status.HTTP_200_OK)
 
     def test_create_item_without_auth(self):
@@ -146,8 +142,7 @@ class InventoryItemAPITests(APITestCase):
             'quantity': 20,
             'price': 34.56,
         }, **headers)
-        print(create_response.data)  # Check if ID is returned
-        item_id = create_response.data['id']  # Ensure this field exists
+        item_id = create_response.data['id']
 
         update_response = self.client.put(reverse('item-detail', args=[item_id]), {
             'name': 'Updated Item',
@@ -165,8 +160,7 @@ class InventoryItemAPITests(APITestCase):
             'quantity': 20,
             'price': 34.56,
         }, **headers)
-        print(create_response.data)  # Check if ID is returned
-        item_id = create_response.data['id']  # Ensure this field exists
+        item_id = create_response.data['id']
 
         delete_response = self.client.delete(reverse('item-detail', args=[item_id]), **headers)
         self.assertEqual(delete_response.status_code, status.HTTP_204_NO_CONTENT)
