@@ -1,0 +1,549 @@
+INFO 2024-09-28 13:35:16,557 autoreload Watching for file changes with StatReloader
+INFO 2024-09-28 13:35:23,135 autoreload F:\Inverntory Project\Inventory_management\Inventory_management\settings.py changed, reloading.
+INFO 2024-09-28 13:39:00,782 autoreload Watching for file changes with StatReloader
+INFO 2024-09-28 13:39:09,751 autoreload F:\Inverntory Project\Inventory_management\inventory\views.py changed, reloading.
+INFO 2024-09-28 13:39:15,771 autoreload Watching for file changes with StatReloader
+INFO 2024-09-28 13:39:19,912 autoreload F:\Inverntory Project\Inventory_management\inventory\views.py changed, reloading.
+INFO 2024-09-28 13:39:23,193 autoreload Watching for file changes with StatReloader
+INFO 2024-09-28 13:39:27,003 autoreload F:\Inverntory Project\Inventory_management\inventory\views.py changed, reloading.
+INFO 2024-09-28 13:39:29,036 autoreload Watching for file changes with StatReloader
+WARNING 2024-09-28 13:39:44,288 log Unauthorized: /inventory/items/
+WARNING 2024-09-28 13:39:44,288 basehttp "POST /inventory/items/ HTTP/1.1" 401 183
+INFO 2024-09-28 13:40:02,533 autoreload F:\Inverntory Project\Inventory_management\Inventory_management\settings.py changed, reloading.
+INFO 2024-09-28 13:40:19,530 autoreload Watching for file changes with StatReloader
+WARNING 2024-09-28 13:40:25,723 log Unauthorized: /inventory/items/
+WARNING 2024-09-28 13:40:25,736 basehttp "POST /inventory/items/ HTTP/1.1" 401 183
+DEBUG 2024-09-28 13:40:31,354 views Attempting to log in user: testuser
+INFO 2024-09-28 13:40:34,275 views User testuser logged in successfully.
+INFO 2024-09-28 13:40:34,292 basehttp "POST /inventory/login/ HTTP/1.1" 200 569
+ERROR 2024-09-28 13:40:48,525 views Error creating inventory item.
+WARNING 2024-09-28 13:40:48,535 log Bad Request: /inventory/items/
+WARNING 2024-09-28 13:40:48,783 basehttp "POST /inventory/items/ HTTP/1.1" 400 32
+INFO 2024-09-28 13:42:12,693 views Inventory item created successfully.
+INFO 2024-09-28 13:42:12,767 basehttp "POST /inventory/items/ HTTP/1.1" 201 78
+ERROR 2024-09-28 13:42:35,303 views Error creating inventory item.
+WARNING 2024-09-28 13:42:35,311 log Bad Request: /inventory/items/
+WARNING 2024-09-28 13:42:35,311 basehttp "POST /inventory/items/ HTTP/1.1" 400 32
+INFO 2024-09-28 13:45:15,683 basehttp - Broken pipe from ('127.0.0.1', 49383)
+INFO 2024-09-28 13:46:08,713 autoreload F:\Inverntory Project\Inventory_management\inventory\utils.py changed, reloading.
+INFO 2024-09-28 13:46:20,144 autoreload Watching for file changes with StatReloader
+INFO 2024-09-28 13:52:19,999 autoreload F:\Inverntory Project\Inventory_management\Inventory_management\settings.py changed, reloading.
+INFO 2024-09-28 13:53:28,864 autoreload Watching for file changes with StatReloader
+INFO 2024-09-28 13:55:15,358 autoreload F:\Inverntory Project\Inventory_management\inventory\utils.py changed, reloading.
+INFO 2024-09-28 13:55:27,043 autoreload Watching for file changes with StatReloader
+INFO 2024-09-28 13:55:46,124 autoreload F:\Inverntory Project\Inventory_management\inventory\views.py changed, reloading.
+INFO 2024-09-28 13:55:49,091 autoreload Watching for file changes with StatReloader
+INFO 2024-09-28 13:56:32,164 autoreload F:\Inverntory Project\Inventory_management\inventory\views.py changed, reloading.
+INFO 2024-09-28 13:56:34,239 autoreload Watching for file changes with StatReloader
+INFO 2024-09-28 13:56:39,518 autoreload F:\Inverntory Project\Inventory_management\inventory\views.py changed, reloading.
+INFO 2024-09-28 13:56:43,066 autoreload Watching for file changes with StatReloader
+INFO 2024-09-28 13:56:54,603 autoreload F:\Inverntory Project\Inventory_management\inventory\views.py changed, reloading.
+INFO 2024-09-28 13:57:02,258 autoreload Watching for file changes with StatReloader
+INFO 2024-09-28 13:57:07,024 autoreload F:\Inverntory Project\Inventory_management\inventory\views.py changed, reloading.
+INFO 2024-09-28 13:57:21,164 autoreload Watching for file changes with StatReloader
+DEBUG 2024-09-28 14:05:49,397 views Attempting to log in user: wronguser
+WARNING 2024-09-28 14:05:50,683 views Failed login attempt for user: wronguser
+WARNING 2024-09-28 14:05:50,683 log Unauthorized: /inventory/login/
+DEBUG 2024-09-28 14:05:50,689 views Attempting to register user: testuser
+INFO 2024-09-28 14:05:53,091 views User testuser registered successfully.
+DEBUG 2024-09-28 14:05:53,099 views Attempting to log in user: testuser
+INFO 2024-09-28 14:05:54,359 views User testuser logged in successfully.
+DEBUG 2024-09-28 14:05:54,366 views Attempting to register user: testuser
+INFO 2024-09-28 14:05:56,689 views User testuser registered successfully.
+DEBUG 2024-09-28 14:05:56,691 views Attempting to log in user: testuser
+INFO 2024-09-28 14:05:57,923 views User testuser logged in successfully.
+DEBUG 2024-09-28 14:05:58,065 views Attempting to register user: testuser
+INFO 2024-09-28 14:06:00,455 views User testuser registered successfully.
+DEBUG 2024-09-28 14:06:00,463 views Attempting to register user: testuser
+WARNING 2024-09-28 14:06:01,660 views User testuser already exists.
+WARNING 2024-09-28 14:06:01,660 log Conflict: /inventory/register/
+INFO 2024-09-28 14:06:58,113 autoreload F:\Inverntory Project\Inventory_management\inventory\urls.py changed, reloading.
+INFO 2024-09-28 14:07:03,651 autoreload Watching for file changes with StatReloader
+INFO 2024-09-28 14:07:09,645 autoreload F:\Inverntory Project\Inventory_management\inventory\urls.py changed, reloading.
+INFO 2024-09-28 14:07:14,433 autoreload Watching for file changes with StatReloader
+DEBUG 2024-09-28 14:07:22,526 views Attempting to log in user: wronguser
+WARNING 2024-09-28 14:07:23,743 views Failed login attempt for user: wronguser
+WARNING 2024-09-28 14:07:23,743 log Unauthorized: /inventory/login/
+DEBUG 2024-09-28 14:07:23,752 views Attempting to register user: testuser
+INFO 2024-09-28 14:07:26,117 views User testuser registered successfully.
+DEBUG 2024-09-28 14:07:26,128 views Attempting to log in user: testuser
+INFO 2024-09-28 14:07:27,401 views User testuser logged in successfully.
+DEBUG 2024-09-28 14:07:27,410 views Attempting to register user: testuser
+INFO 2024-09-28 14:07:29,909 views User testuser registered successfully.
+DEBUG 2024-09-28 14:07:29,909 views Attempting to log in user: testuser
+INFO 2024-09-28 14:07:31,077 views User testuser logged in successfully.
+ERROR 2024-09-28 14:07:31,077 views Error during logout: Token has wrong type
+WARNING 2024-09-28 14:07:31,077 log Bad Request: /inventory/logout/
+DEBUG 2024-09-28 14:07:31,110 views Attempting to register user: testuser
+INFO 2024-09-28 14:07:33,501 views User testuser registered successfully.
+DEBUG 2024-09-28 14:07:33,501 views Attempting to register user: testuser
+WARNING 2024-09-28 14:07:34,697 views User testuser already exists.
+WARNING 2024-09-28 14:07:34,697 log Conflict: /inventory/register/
+DEBUG 2024-09-28 14:16:53,976 views Attempting to log in user: wronguser
+WARNING 2024-09-28 14:16:55,274 views Failed login attempt for user: wronguser
+WARNING 2024-09-28 14:16:55,275 log Unauthorized: /inventory/login/
+DEBUG 2024-09-28 14:16:55,280 views Attempting to register user: testuser
+INFO 2024-09-28 14:16:57,874 views User testuser registered successfully.
+DEBUG 2024-09-28 14:16:57,874 views Attempting to log in user: testuser
+INFO 2024-09-28 14:16:59,087 views User testuser logged in successfully.
+DEBUG 2024-09-28 14:16:59,093 views Attempting to register user: testuser
+INFO 2024-09-28 14:17:01,859 views User testuser registered successfully.
+DEBUG 2024-09-28 14:17:01,865 views Attempting to log in user: testuser
+INFO 2024-09-28 14:17:03,035 views User testuser logged in successfully.
+DEBUG 2024-09-28 14:17:03,072 views Attempting to register user: testuser
+INFO 2024-09-28 14:17:05,729 views User testuser registered successfully.
+DEBUG 2024-09-28 14:17:05,735 views Attempting to register user: testuser
+WARNING 2024-09-28 14:17:06,932 views User testuser already exists.
+WARNING 2024-09-28 14:17:06,932 log Conflict: /inventory/register/
+DEBUG 2024-09-28 14:18:34,532 views Attempting to log in user: wronguser
+WARNING 2024-09-28 14:18:36,304 views Failed login attempt for user: wronguser
+WARNING 2024-09-28 14:18:36,309 log Unauthorized: /inventory/login/
+DEBUG 2024-09-28 14:18:36,309 views Attempting to register user: testuser
+INFO 2024-09-28 14:18:39,462 views User testuser registered successfully.
+DEBUG 2024-09-28 14:18:39,462 views Attempting to log in user: testuser
+INFO 2024-09-28 14:18:40,771 views User testuser logged in successfully.
+DEBUG 2024-09-28 14:18:40,779 views Attempting to register user: testuser
+INFO 2024-09-28 14:18:43,316 views User testuser registered successfully.
+DEBUG 2024-09-28 14:18:43,316 views Attempting to log in user: testuser
+INFO 2024-09-28 14:18:44,519 views User testuser logged in successfully.
+DEBUG 2024-09-28 14:18:44,533 views Attempting to register user: testuser
+INFO 2024-09-28 14:18:46,938 views User testuser registered successfully.
+DEBUG 2024-09-28 14:18:46,948 views Attempting to register user: testuser
+WARNING 2024-09-28 14:18:48,162 views User testuser already exists.
+WARNING 2024-09-28 14:18:48,162 log Conflict: /inventory/register/
+DEBUG 2024-09-28 14:21:46,114 views Attempting to log in user: wronguser
+WARNING 2024-09-28 14:21:47,776 views Failed login attempt for user: wronguser
+WARNING 2024-09-28 14:21:47,779 log Unauthorized: /inventory/login/
+DEBUG 2024-09-28 14:21:47,785 views Attempting to register user: testuser
+INFO 2024-09-28 14:21:51,541 views User testuser registered successfully.
+DEBUG 2024-09-28 14:21:51,545 views Attempting to log in user: testuser
+INFO 2024-09-28 14:21:53,185 views User testuser logged in successfully.
+DEBUG 2024-09-28 14:21:53,191 views Attempting to register user: testuser
+INFO 2024-09-28 14:21:56,747 views User testuser registered successfully.
+DEBUG 2024-09-28 14:21:56,754 views Attempting to log in user: testuser
+INFO 2024-09-28 14:22:01,053 views User testuser logged in successfully.
+INFO 2024-09-28 14:22:01,137 views User logged out successfully.
+DEBUG 2024-09-28 14:22:01,203 views Attempting to register user: testuser
+INFO 2024-09-28 14:22:06,950 views User testuser registered successfully.
+DEBUG 2024-09-28 14:22:06,960 views Attempting to register user: testuser
+WARNING 2024-09-28 14:22:09,848 views User testuser already exists.
+WARNING 2024-09-28 14:22:09,853 log Conflict: /inventory/register/
+DEBUG 2024-09-28 14:23:59,548 views Attempting to log in user: wronguser
+WARNING 2024-09-28 14:24:01,587 views Failed login attempt for user: wronguser
+WARNING 2024-09-28 14:24:01,590 log Unauthorized: /inventory/login/
+DEBUG 2024-09-28 14:24:01,610 views Attempting to register user: testuser
+INFO 2024-09-28 14:24:07,427 views User testuser registered successfully.
+DEBUG 2024-09-28 14:24:07,474 views Attempting to log in user: testuser
+INFO 2024-09-28 14:24:12,609 views User testuser logged in successfully.
+DEBUG 2024-09-28 14:24:12,629 views Attempting to register user: testuser
+INFO 2024-09-28 14:24:19,232 views User testuser registered successfully.
+DEBUG 2024-09-28 14:24:19,236 views Attempting to log in user: testuser
+INFO 2024-09-28 14:24:26,622 views User testuser logged in successfully.
+INFO 2024-09-28 14:24:26,841 views User logged out successfully.
+DEBUG 2024-09-28 14:24:26,889 views Attempting to register user: testuser
+INFO 2024-09-28 14:24:31,838 views User testuser registered successfully.
+DEBUG 2024-09-28 14:24:31,908 views Attempting to register user: testuser
+WARNING 2024-09-28 14:24:35,638 views User testuser already exists.
+WARNING 2024-09-28 14:24:35,646 log Conflict: /inventory/register/
+DEBUG 2024-09-28 14:25:12,138 views Attempting to register user: testuser
+INFO 2024-09-28 14:25:16,469 views User testuser registered successfully.
+DEBUG 2024-09-28 14:25:16,475 views Attempting to log in user: testuser
+INFO 2024-09-28 14:25:18,892 views User testuser logged in successfully.
+WARNING 2024-09-28 14:25:18,898 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:25:18,904 views Attempting to register user: testuser
+INFO 2024-09-28 14:25:23,866 views User testuser registered successfully.
+DEBUG 2024-09-28 14:25:23,870 views Attempting to log in user: testuser
+INFO 2024-09-28 14:25:25,813 views User testuser logged in successfully.
+WARNING 2024-09-28 14:25:25,860 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:25:25,957 views Attempting to register user: testuser
+INFO 2024-09-28 14:25:32,897 views User testuser registered successfully.
+DEBUG 2024-09-28 14:25:32,914 views Attempting to log in user: testuser
+INFO 2024-09-28 14:25:37,086 views User testuser logged in successfully.
+WARNING 2024-09-28 14:25:37,090 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:25:37,108 views Attempting to register user: testuser
+INFO 2024-09-28 14:25:40,906 views User testuser registered successfully.
+DEBUG 2024-09-28 14:25:40,913 views Attempting to log in user: testuser
+INFO 2024-09-28 14:25:42,843 views User testuser logged in successfully.
+WARNING 2024-09-28 14:25:42,859 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:25:42,870 views Attempting to register user: testuser
+INFO 2024-09-28 14:25:47,504 views User testuser registered successfully.
+DEBUG 2024-09-28 14:25:47,507 views Attempting to log in user: testuser
+INFO 2024-09-28 14:25:49,441 views User testuser logged in successfully.
+WARNING 2024-09-28 14:25:49,448 log Unauthorized: /inventory/items/
+WARNING 2024-09-28 14:25:49,456 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:25:49,483 views Attempting to register user: testuser
+INFO 2024-09-28 14:25:53,577 views User testuser registered successfully.
+DEBUG 2024-09-28 14:25:53,585 views Attempting to log in user: testuser
+INFO 2024-09-28 14:25:55,982 views User testuser logged in successfully.
+WARNING 2024-09-28 14:25:55,996 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:27:43,221 views Attempting to register user: testuser
+INFO 2024-09-28 14:27:46,651 views User testuser registered successfully.
+DEBUG 2024-09-28 14:27:46,656 views Attempting to log in user: testuser
+INFO 2024-09-28 14:27:48,297 views User testuser logged in successfully.
+WARNING 2024-09-28 14:27:48,303 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:27:48,311 views Attempting to register user: testuser
+INFO 2024-09-28 14:27:51,830 views User testuser registered successfully.
+DEBUG 2024-09-28 14:27:51,836 views Attempting to log in user: testuser
+INFO 2024-09-28 14:27:53,703 views User testuser logged in successfully.
+WARNING 2024-09-28 14:27:53,708 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:27:53,715 views Attempting to register user: testuser
+INFO 2024-09-28 14:27:57,753 views User testuser registered successfully.
+DEBUG 2024-09-28 14:27:57,757 views Attempting to log in user: testuser
+INFO 2024-09-28 14:27:59,410 views User testuser logged in successfully.
+WARNING 2024-09-28 14:27:59,415 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:27:59,429 views Attempting to register user: testuser
+INFO 2024-09-28 14:28:03,318 views User testuser registered successfully.
+DEBUG 2024-09-28 14:28:03,322 views Attempting to log in user: testuser
+INFO 2024-09-28 14:28:05,712 views User testuser logged in successfully.
+WARNING 2024-09-28 14:28:05,725 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:28:05,752 views Attempting to register user: testuser
+INFO 2024-09-28 14:28:09,651 views User testuser registered successfully.
+DEBUG 2024-09-28 14:28:09,654 views Attempting to log in user: testuser
+INFO 2024-09-28 14:28:11,260 views User testuser logged in successfully.
+WARNING 2024-09-28 14:28:11,264 log Unauthorized: /inventory/items/
+WARNING 2024-09-28 14:28:11,268 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:28:11,276 views Attempting to register user: testuser
+INFO 2024-09-28 14:28:18,087 views User testuser registered successfully.
+DEBUG 2024-09-28 14:28:18,093 views Attempting to log in user: testuser
+INFO 2024-09-28 14:28:21,094 views User testuser logged in successfully.
+WARNING 2024-09-28 14:28:21,100 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:29:17,694 views Attempting to register user: testuser
+INFO 2024-09-28 14:29:21,959 views User testuser registered successfully.
+DEBUG 2024-09-28 14:29:21,967 views Attempting to log in user: testuser
+INFO 2024-09-28 14:29:24,037 views User testuser logged in successfully.
+WARNING 2024-09-28 14:29:24,044 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:29:24,054 views Attempting to register user: testuser
+INFO 2024-09-28 14:29:27,745 views User testuser registered successfully.
+DEBUG 2024-09-28 14:29:27,749 views Attempting to log in user: testuser
+INFO 2024-09-28 14:29:30,101 views User testuser logged in successfully.
+WARNING 2024-09-28 14:29:30,389 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:29:30,531 views Attempting to register user: testuser
+INFO 2024-09-28 14:29:36,539 views User testuser registered successfully.
+DEBUG 2024-09-28 14:29:37,098 views Attempting to log in user: testuser
+INFO 2024-09-28 14:29:41,736 views User testuser logged in successfully.
+WARNING 2024-09-28 14:29:41,799 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:29:41,846 views Attempting to register user: testuser
+INFO 2024-09-28 14:29:45,564 views User testuser registered successfully.
+DEBUG 2024-09-28 14:29:45,567 views Attempting to log in user: testuser
+INFO 2024-09-28 14:29:47,595 views User testuser logged in successfully.
+WARNING 2024-09-28 14:29:47,603 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:29:47,622 views Attempting to register user: testuser
+INFO 2024-09-28 14:29:51,433 views User testuser registered successfully.
+DEBUG 2024-09-28 14:29:51,437 views Attempting to log in user: testuser
+INFO 2024-09-28 14:29:53,342 views User testuser logged in successfully.
+WARNING 2024-09-28 14:29:53,355 log Unauthorized: /inventory/items/
+WARNING 2024-09-28 14:29:53,436 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:29:53,616 views Attempting to register user: testuser
+INFO 2024-09-28 14:29:56,880 views User testuser registered successfully.
+DEBUG 2024-09-28 14:29:56,882 views Attempting to log in user: testuser
+INFO 2024-09-28 14:29:58,721 views User testuser logged in successfully.
+WARNING 2024-09-28 14:29:58,740 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:32:18,937 views Attempting to register user: testuser
+INFO 2024-09-28 14:32:23,237 views User testuser registered successfully.
+DEBUG 2024-09-28 14:32:23,251 views Attempting to log in user: testuser
+INFO 2024-09-28 14:32:25,459 views User testuser logged in successfully.
+WARNING 2024-09-28 14:32:25,489 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:32:25,496 views Attempting to register user: testuser
+INFO 2024-09-28 14:32:29,378 views User testuser registered successfully.
+DEBUG 2024-09-28 14:32:29,381 views Attempting to log in user: testuser
+INFO 2024-09-28 14:32:30,985 views User testuser logged in successfully.
+WARNING 2024-09-28 14:32:30,994 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:32:31,015 views Attempting to register user: testuser
+INFO 2024-09-28 14:32:34,117 views User testuser registered successfully.
+DEBUG 2024-09-28 14:32:34,119 views Attempting to log in user: testuser
+INFO 2024-09-28 14:32:35,703 views User testuser logged in successfully.
+WARNING 2024-09-28 14:32:35,708 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:32:35,716 views Attempting to register user: testuser
+INFO 2024-09-28 14:32:39,241 views User testuser registered successfully.
+DEBUG 2024-09-28 14:32:39,244 views Attempting to log in user: testuser
+INFO 2024-09-28 14:32:40,782 views User testuser logged in successfully.
+WARNING 2024-09-28 14:32:40,786 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:32:40,791 views Attempting to register user: testuser
+INFO 2024-09-28 14:32:43,987 views User testuser registered successfully.
+DEBUG 2024-09-28 14:32:43,990 views Attempting to log in user: testuser
+INFO 2024-09-28 14:32:45,703 views User testuser logged in successfully.
+WARNING 2024-09-28 14:32:45,709 log Unauthorized: /inventory/items/
+WARNING 2024-09-28 14:32:45,713 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:32:45,720 views Attempting to register user: testuser
+INFO 2024-09-28 14:32:48,838 views User testuser registered successfully.
+DEBUG 2024-09-28 14:32:48,841 views Attempting to log in user: testuser
+INFO 2024-09-28 14:32:50,291 views User testuser logged in successfully.
+WARNING 2024-09-28 14:32:50,295 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:38:31,837 views Attempting to register user: testuser
+INFO 2024-09-28 14:38:34,874 views User testuser registered successfully.
+DEBUG 2024-09-28 14:38:34,877 views Attempting to log in user: testuser
+INFO 2024-09-28 14:38:37,025 views User testuser logged in successfully.
+WARNING 2024-09-28 14:38:37,038 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:38:37,046 views Attempting to register user: testuser
+INFO 2024-09-28 14:38:38,101 views Inventory item created successfully.
+INFO 2024-09-28 14:38:38,367 basehttp "POST /inventory/items/ HTTP/1.1" 201 94
+INFO 2024-09-28 14:38:41,161 views User testuser registered successfully.
+DEBUG 2024-09-28 14:38:41,163 views Attempting to log in user: testuser
+INFO 2024-09-28 14:38:42,905 views User testuser logged in successfully.
+WARNING 2024-09-28 14:38:42,909 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:38:42,916 views Attempting to register user: testuser
+INFO 2024-09-28 14:38:46,216 views User testuser registered successfully.
+DEBUG 2024-09-28 14:38:46,219 views Attempting to log in user: testuser
+INFO 2024-09-28 14:38:48,150 views User testuser logged in successfully.
+WARNING 2024-09-28 14:38:48,156 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:38:48,185 views Attempting to register user: testuser
+INFO 2024-09-28 14:38:50,943 views User testuser registered successfully.
+DEBUG 2024-09-28 14:38:50,946 views Attempting to log in user: testuser
+INFO 2024-09-28 14:38:52,164 views User testuser logged in successfully.
+WARNING 2024-09-28 14:38:52,168 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:38:52,172 views Attempting to register user: testuser
+INFO 2024-09-28 14:38:54,521 views User testuser registered successfully.
+DEBUG 2024-09-28 14:38:54,523 views Attempting to log in user: testuser
+INFO 2024-09-28 14:38:55,852 views User testuser logged in successfully.
+WARNING 2024-09-28 14:38:55,868 log Unauthorized: /inventory/items/
+WARNING 2024-09-28 14:38:55,878 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 14:38:55,885 views Attempting to register user: testuser
+INFO 2024-09-28 14:38:58,606 views User testuser registered successfully.
+DEBUG 2024-09-28 14:38:58,608 views Attempting to log in user: testuser
+INFO 2024-09-28 14:39:00,101 views User testuser logged in successfully.
+WARNING 2024-09-28 14:39:00,107 log Unauthorized: /inventory/items/
+INFO 2024-09-28 15:08:04,411 autoreload Watching for file changes with StatReloader
+DEBUG 2024-09-28 15:20:15,618 views Attempting to register user: testuser
+INFO 2024-09-28 15:20:17,302 views User testuser registered successfully.
+DEBUG 2024-09-28 15:20:17,310 views Attempting to log in user: testuser
+INFO 2024-09-28 15:20:18,373 views User testuser logged in successfully.
+WARNING 2024-09-28 15:20:18,377 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:20:18,383 views Attempting to register user: testuser
+INFO 2024-09-28 15:20:20,228 views User testuser registered successfully.
+DEBUG 2024-09-28 15:20:20,231 views Attempting to log in user: testuser
+INFO 2024-09-28 15:20:21,456 views User testuser logged in successfully.
+WARNING 2024-09-28 15:20:21,460 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:20:21,464 views Attempting to register user: testuser
+INFO 2024-09-28 15:20:23,767 views User testuser registered successfully.
+DEBUG 2024-09-28 15:20:23,770 views Attempting to log in user: testuser
+INFO 2024-09-28 15:20:25,003 views User testuser logged in successfully.
+WARNING 2024-09-28 15:20:25,007 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:20:25,015 views Attempting to register user: testuser
+INFO 2024-09-28 15:20:27,024 views User testuser registered successfully.
+DEBUG 2024-09-28 15:20:27,026 views Attempting to log in user: testuser
+INFO 2024-09-28 15:20:28,017 views User testuser logged in successfully.
+WARNING 2024-09-28 15:20:28,019 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:20:28,019 views Attempting to register user: testuser
+INFO 2024-09-28 15:20:29,968 views User testuser registered successfully.
+DEBUG 2024-09-28 15:20:29,970 views Attempting to log in user: testuser
+INFO 2024-09-28 15:20:30,785 views User testuser logged in successfully.
+WARNING 2024-09-28 15:20:30,788 log Unauthorized: /inventory/items/
+WARNING 2024-09-28 15:20:30,789 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:20:30,793 views Attempting to register user: testuser
+INFO 2024-09-28 15:20:32,479 views User testuser registered successfully.
+DEBUG 2024-09-28 15:20:32,479 views Attempting to log in user: testuser
+INFO 2024-09-28 15:20:33,324 views User testuser logged in successfully.
+WARNING 2024-09-28 15:20:33,327 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:20:33,332 views Attempting to log in user: wronguser
+WARNING 2024-09-28 15:20:34,223 views Failed login attempt for user: wronguser
+WARNING 2024-09-28 15:20:34,224 log Unauthorized: /inventory/login/
+DEBUG 2024-09-28 15:20:34,226 views Attempting to register user: testuser
+INFO 2024-09-28 15:20:35,861 views User testuser registered successfully.
+DEBUG 2024-09-28 15:20:35,863 views Attempting to log in user: testuser
+INFO 2024-09-28 15:20:36,664 views User testuser logged in successfully.
+DEBUG 2024-09-28 15:20:36,668 views Attempting to register user: testuser
+INFO 2024-09-28 15:20:38,263 views User testuser registered successfully.
+DEBUG 2024-09-28 15:20:38,265 views Attempting to log in user: testuser
+INFO 2024-09-28 15:20:39,085 views User testuser logged in successfully.
+INFO 2024-09-28 15:20:39,105 views User logged out successfully.
+DEBUG 2024-09-28 15:20:39,108 views Attempting to register user: testuser
+INFO 2024-09-28 15:20:40,722 views User testuser registered successfully.
+DEBUG 2024-09-28 15:20:40,724 views Attempting to register user: testuser
+WARNING 2024-09-28 15:20:41,560 views User testuser already exists.
+WARNING 2024-09-28 15:20:41,561 log Conflict: /inventory/register/
+DEBUG 2024-09-28 15:21:53,727 views Attempting to register user: testuser
+INFO 2024-09-28 15:21:55,661 views User testuser registered successfully.
+DEBUG 2024-09-28 15:21:55,661 views Attempting to log in user: testuser
+INFO 2024-09-28 15:21:56,662 views User testuser logged in successfully.
+WARNING 2024-09-28 15:21:56,662 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:21:56,662 views Attempting to register user: testuser
+INFO 2024-09-28 15:21:58,502 views User testuser registered successfully.
+DEBUG 2024-09-28 15:21:58,503 views Attempting to log in user: testuser
+INFO 2024-09-28 15:21:59,262 views User testuser logged in successfully.
+WARNING 2024-09-28 15:21:59,262 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:21:59,262 views Attempting to register user: testuser
+INFO 2024-09-28 15:22:00,859 views User testuser registered successfully.
+DEBUG 2024-09-28 15:22:00,859 views Attempting to log in user: testuser
+INFO 2024-09-28 15:22:01,642 views User testuser logged in successfully.
+WARNING 2024-09-28 15:22:01,642 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:22:01,642 views Attempting to register user: testuser
+INFO 2024-09-28 15:22:03,192 views User testuser registered successfully.
+DEBUG 2024-09-28 15:22:03,192 views Attempting to log in user: testuser
+INFO 2024-09-28 15:22:03,990 views User testuser logged in successfully.
+WARNING 2024-09-28 15:22:04,006 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:22:04,006 views Attempting to register user: testuser
+INFO 2024-09-28 15:22:05,949 views User testuser registered successfully.
+DEBUG 2024-09-28 15:22:05,949 views Attempting to log in user: testuser
+INFO 2024-09-28 15:22:06,935 views User testuser logged in successfully.
+WARNING 2024-09-28 15:22:06,935 log Unauthorized: /inventory/items/
+WARNING 2024-09-28 15:22:06,935 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:22:06,935 views Attempting to register user: testuser
+INFO 2024-09-28 15:22:09,001 views User testuser registered successfully.
+DEBUG 2024-09-28 15:22:09,001 views Attempting to log in user: testuser
+INFO 2024-09-28 15:22:09,987 views User testuser logged in successfully.
+WARNING 2024-09-28 15:22:10,005 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:22:10,011 views Attempting to log in user: wronguser
+WARNING 2024-09-28 15:22:11,036 views Failed login attempt for user: wronguser
+WARNING 2024-09-28 15:22:11,036 log Unauthorized: /inventory/login/
+DEBUG 2024-09-28 15:22:11,036 views Attempting to register user: testuser
+INFO 2024-09-28 15:22:12,993 views User testuser registered successfully.
+DEBUG 2024-09-28 15:22:12,993 views Attempting to log in user: testuser
+INFO 2024-09-28 15:22:13,822 views User testuser logged in successfully.
+DEBUG 2024-09-28 15:22:13,822 views Attempting to register user: testuser
+INFO 2024-09-28 15:22:15,361 views User testuser registered successfully.
+DEBUG 2024-09-28 15:22:15,361 views Attempting to log in user: testuser
+INFO 2024-09-28 15:22:16,125 views User testuser logged in successfully.
+INFO 2024-09-28 15:22:16,125 views User logged out successfully.
+DEBUG 2024-09-28 15:22:16,141 views Attempting to register user: testuser
+INFO 2024-09-28 15:22:17,831 views User testuser registered successfully.
+DEBUG 2024-09-28 15:22:17,831 views Attempting to register user: testuser
+WARNING 2024-09-28 15:22:18,660 views User testuser already exists.
+WARNING 2024-09-28 15:22:18,661 log Conflict: /inventory/register/
+DEBUG 2024-09-28 15:25:13,045 views Attempting to register user: testuser
+INFO 2024-09-28 15:25:15,096 views User testuser registered successfully.
+DEBUG 2024-09-28 15:25:15,100 views Attempting to log in user: testuser
+INFO 2024-09-28 15:25:16,164 views User testuser logged in successfully.
+WARNING 2024-09-28 15:25:16,164 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:25:16,183 views Attempting to register user: testuser
+INFO 2024-09-28 15:25:17,958 views User testuser registered successfully.
+DEBUG 2024-09-28 15:25:17,960 views Attempting to log in user: testuser
+INFO 2024-09-28 15:25:18,876 views User testuser logged in successfully.
+WARNING 2024-09-28 15:25:18,876 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:25:18,892 views Attempting to register user: testuser
+INFO 2024-09-28 15:25:20,944 views User testuser registered successfully.
+DEBUG 2024-09-28 15:25:20,946 views Attempting to log in user: testuser
+INFO 2024-09-28 15:25:21,989 views User testuser logged in successfully.
+WARNING 2024-09-28 15:25:21,993 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:25:21,998 views Attempting to register user: testuser
+INFO 2024-09-28 15:25:24,098 views User testuser registered successfully.
+DEBUG 2024-09-28 15:25:24,100 views Attempting to log in user: testuser
+INFO 2024-09-28 15:25:25,135 views User testuser logged in successfully.
+WARNING 2024-09-28 15:25:25,140 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:25:25,144 views Attempting to register user: testuser
+INFO 2024-09-28 15:25:27,162 views User testuser registered successfully.
+DEBUG 2024-09-28 15:25:27,164 views Attempting to log in user: testuser
+INFO 2024-09-28 15:25:28,162 views User testuser logged in successfully.
+WARNING 2024-09-28 15:25:28,177 log Unauthorized: /inventory/items/
+WARNING 2024-09-28 15:25:28,180 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:25:28,183 views Attempting to register user: testuser
+INFO 2024-09-28 15:25:30,163 views User testuser registered successfully.
+DEBUG 2024-09-28 15:25:30,165 views Attempting to log in user: testuser
+INFO 2024-09-28 15:25:31,163 views User testuser logged in successfully.
+WARNING 2024-09-28 15:25:31,167 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:25:31,171 views Attempting to log in user: wronguser
+WARNING 2024-09-28 15:25:32,160 views Failed login attempt for user: wronguser
+WARNING 2024-09-28 15:25:32,161 log Unauthorized: /inventory/login/
+DEBUG 2024-09-28 15:25:32,165 views Attempting to register user: testuser
+INFO 2024-09-28 15:25:33,813 views User testuser registered successfully.
+DEBUG 2024-09-28 15:25:33,815 views Attempting to log in user: testuser
+INFO 2024-09-28 15:25:34,642 views User testuser logged in successfully.
+DEBUG 2024-09-28 15:25:34,646 views Attempting to register user: testuser
+INFO 2024-09-28 15:25:36,266 views User testuser registered successfully.
+DEBUG 2024-09-28 15:25:36,266 views Attempting to log in user: testuser
+INFO 2024-09-28 15:25:37,132 views User testuser logged in successfully.
+INFO 2024-09-28 15:25:37,140 views User logged out successfully.
+DEBUG 2024-09-28 15:25:37,143 views Attempting to register user: testuser
+INFO 2024-09-28 15:25:38,864 views User testuser registered successfully.
+DEBUG 2024-09-28 15:25:38,864 views Attempting to register user: testuser
+WARNING 2024-09-28 15:25:39,660 views User testuser already exists.
+WARNING 2024-09-28 15:25:39,662 log Conflict: /inventory/register/
+INFO 2024-09-28 15:26:18,151 autoreload F:\Inverntory Project\Inventory_management\Inventory_management\settings.py changed, reloading.
+INFO 2024-09-28 15:26:21,015 autoreload Watching for file changes with StatReloader
+INFO 2024-09-28 15:27:16,813 autoreload F:\Inverntory Project\Inventory_management\Inventory_management\settings.py changed, reloading.
+INFO 2024-09-28 15:27:18,161 autoreload Watching for file changes with StatReloader
+DEBUG 2024-09-28 15:27:21,056 views Attempting to register user: testuser
+INFO 2024-09-28 15:27:23,100 views User testuser registered successfully.
+DEBUG 2024-09-28 15:27:23,104 views Attempting to log in user: testuser
+INFO 2024-09-28 15:27:24,239 views User testuser logged in successfully.
+WARNING 2024-09-28 15:27:24,244 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:27:24,253 views Attempting to register user: testuser
+INFO 2024-09-28 15:27:26,694 views User testuser registered successfully.
+DEBUG 2024-09-28 15:27:26,694 views Attempting to log in user: testuser
+INFO 2024-09-28 15:27:28,791 views User testuser logged in successfully.
+WARNING 2024-09-28 15:27:28,828 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:27:28,849 views Attempting to register user: testuser
+INFO 2024-09-28 15:27:32,085 views User testuser registered successfully.
+DEBUG 2024-09-28 15:27:32,087 views Attempting to log in user: testuser
+INFO 2024-09-28 15:27:33,200 views User testuser logged in successfully.
+WARNING 2024-09-28 15:27:33,200 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:27:33,218 views Attempting to register user: testuser
+INFO 2024-09-28 15:27:35,262 views User testuser registered successfully.
+DEBUG 2024-09-28 15:27:35,264 views Attempting to log in user: testuser
+INFO 2024-09-28 15:27:36,253 views User testuser logged in successfully.
+WARNING 2024-09-28 15:27:36,257 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:27:36,263 views Attempting to register user: testuser
+INFO 2024-09-28 15:27:38,324 views User testuser registered successfully.
+DEBUG 2024-09-28 15:27:38,345 views Attempting to log in user: testuser
+INFO 2024-09-28 15:27:39,490 views User testuser logged in successfully.
+WARNING 2024-09-28 15:27:39,494 log Unauthorized: /inventory/items/
+WARNING 2024-09-28 15:27:39,496 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:27:39,500 views Attempting to register user: testuser
+INFO 2024-09-28 15:27:41,468 views User testuser registered successfully.
+DEBUG 2024-09-28 15:27:41,468 views Attempting to log in user: testuser
+INFO 2024-09-28 15:27:42,638 views User testuser logged in successfully.
+WARNING 2024-09-28 15:27:42,638 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:27:42,651 views Attempting to log in user: wronguser
+WARNING 2024-09-28 15:27:43,807 views Failed login attempt for user: wronguser
+WARNING 2024-09-28 15:27:43,808 log Unauthorized: /inventory/login/
+DEBUG 2024-09-28 15:27:43,811 views Attempting to register user: testuser
+INFO 2024-09-28 15:27:45,849 views User testuser registered successfully.
+DEBUG 2024-09-28 15:27:45,849 views Attempting to log in user: testuser
+INFO 2024-09-28 15:27:47,413 views User testuser logged in successfully.
+DEBUG 2024-09-28 15:27:47,418 views Attempting to register user: testuser
+INFO 2024-09-28 15:27:51,359 views User testuser registered successfully.
+DEBUG 2024-09-28 15:27:51,362 views Attempting to log in user: testuser
+INFO 2024-09-28 15:27:52,587 views User testuser logged in successfully.
+INFO 2024-09-28 15:27:52,594 views User logged out successfully.
+DEBUG 2024-09-28 15:27:52,597 views Attempting to register user: testuser
+INFO 2024-09-28 15:27:54,765 views User testuser registered successfully.
+DEBUG 2024-09-28 15:27:54,765 views Attempting to register user: testuser
+WARNING 2024-09-28 15:27:55,789 views User testuser already exists.
+WARNING 2024-09-28 15:27:55,790 log Conflict: /inventory/register/
+DEBUG 2024-09-28 15:32:05,835 views Attempting to register user: testuser
+INFO 2024-09-28 15:32:08,167 views User testuser registered successfully.
+DEBUG 2024-09-28 15:32:08,281 views Attempting to log in user: testuser
+INFO 2024-09-28 15:32:10,852 views User testuser logged in successfully.
+WARNING 2024-09-28 15:32:10,896 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:32:11,093 views Attempting to register user: testuser
+INFO 2024-09-28 15:32:15,536 views User testuser registered successfully.
+DEBUG 2024-09-28 15:32:15,552 views Attempting to log in user: testuser
+INFO 2024-09-28 15:32:18,518 views User testuser logged in successfully.
+WARNING 2024-09-28 15:32:18,538 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:32:18,567 views Attempting to register user: testuser
+INFO 2024-09-28 15:32:25,556 views User testuser registered successfully.
+DEBUG 2024-09-28 15:32:25,608 views Attempting to log in user: testuser
+INFO 2024-09-28 15:32:29,067 views User testuser logged in successfully.
+WARNING 2024-09-28 15:32:29,095 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:32:29,205 views Attempting to register user: testuser
+INFO 2024-09-28 15:32:33,793 views User testuser registered successfully.
+DEBUG 2024-09-28 15:32:33,801 views Attempting to log in user: testuser
+INFO 2024-09-28 15:32:35,613 views User testuser logged in successfully.
+WARNING 2024-09-28 15:32:35,613 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:32:35,629 views Attempting to register user: testuser
+INFO 2024-09-28 15:32:38,384 views User testuser registered successfully.
+DEBUG 2024-09-28 15:32:38,384 views Attempting to log in user: testuser
+INFO 2024-09-28 15:32:40,804 views User testuser logged in successfully.
+WARNING 2024-09-28 15:32:40,819 log Unauthorized: /inventory/items/
+WARNING 2024-09-28 15:32:40,819 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:32:40,897 views Attempting to register user: testuser
+INFO 2024-09-28 15:32:43,809 views User testuser registered successfully.
+DEBUG 2024-09-28 15:32:43,813 views Attempting to log in user: testuser
+INFO 2024-09-28 15:32:45,204 views User testuser logged in successfully.
+WARNING 2024-09-28 15:32:45,220 log Unauthorized: /inventory/items/
+DEBUG 2024-09-28 15:32:45,251 views Attempting to log in user: wronguser
+WARNING 2024-09-28 15:32:46,470 views Failed login attempt for user: wronguser
+WARNING 2024-09-28 15:32:46,485 log Unauthorized: /inventory/login/
+DEBUG 2024-09-28 15:32:46,488 views Attempting to register user: testuser
+INFO 2024-09-28 15:32:48,756 views User testuser registered successfully.
+DEBUG 2024-09-28 15:32:48,758 views Attempting to log in user: testuser
+INFO 2024-09-28 15:32:49,739 views User testuser logged in successfully.
+DEBUG 2024-09-28 15:32:49,750 views Attempting to register user: testuser
+INFO 2024-09-28 15:32:51,767 views User testuser registered successfully.
+DEBUG 2024-09-28 15:32:51,770 views Attempting to log in user: testuser
+INFO 2024-09-28 15:32:53,214 views User testuser logged in successfully.
+INFO 2024-09-28 15:32:53,396 views User logged out successfully.
+DEBUG 2024-09-28 15:32:53,443 views Attempting to register user: testuser
+INFO 2024-09-28 15:32:56,994 views User testuser registered successfully.
+DEBUG 2024-09-28 15:32:57,009 views Attempting to register user: testuser
+WARNING 2024-09-28 15:32:58,775 views User testuser already exists.
+WARNING 2024-09-28 15:32:58,775 log Conflict: /inventory/register/
